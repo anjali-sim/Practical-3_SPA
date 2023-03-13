@@ -240,6 +240,51 @@
     padding-bottom: 30px;
 }
 
+/* Style for bottom to top button */
+#buttonBottomToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8b3b35;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: none;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#buttonBottomToTop i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    top: 1px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#buttonBottomToTop:hover {
+    background: #cc665e;
+    border: none;
+}
+
+#buttonBottomToTop:hover i {
+    color: #fff;
+    top: -4px;
+}
+
 /* Media Queries */
 @media screen and (max-width:990px) {
     #product-list-button button {
