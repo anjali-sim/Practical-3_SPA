@@ -240,6 +240,11 @@
     padding-bottom: 30px;
 }
 
+/* For scrolling smoothly the webpage */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Style for bottom to top button */
 #buttonBottomToTop {
     position: fixed;
