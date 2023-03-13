@@ -239,3 +239,28 @@
     margin-top: 20px;
     padding-bottom: 30px;
 }
+
+/* Media Queries */
+@media screen and (max-width:990px) {
+    #product-list-button button {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .social-link i img {
+        width: 20px;
+    }
+
+    .logo h3 {
+        font-size: 20px;
+    }
+
+    .icons i img {
+        width: 20px;
+    }
+
+    .image-content h1 {
+        font-size: 30px;
+    }
+}
