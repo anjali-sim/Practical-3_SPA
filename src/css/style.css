@@ -54,6 +54,21 @@
     background-color: #8b3b35;
 }
 
+#navbar {
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
 .navbar-nav {
     margin: auto;
 }
